@@ -1,0 +1,101 @@
+
+.Sheoran_Content{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ box-sizing: border-box;
+}
+
+.Sheoran_Content_left{
+    width: 50%;
+}
+.Sheoran_Content_left_heading1 h1 {
+    color: #2A41C9;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    text-align: left;
+    
+    
+}
+.Sheoran_Content_left_heading1 h1 span{
+    color: #AF2B4A;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.Sheoran_Content_left_heading2 p{
+    color: #45349C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+.Sheoran_Content_left_heading3 h2{
+    color: #45349C;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.Sheoran_Content_left_Button {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid #2A41C9;
+    background: #FFF;
+}
+.Sheoran_Content_left_Button h4{
+    color: #2A41C9;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 30px;
+}
+.Sheoran_Content_Button{
+    margin-top: 5px;
+    margin-right: 5px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: background-color .5s .5s;
+    background: #533EBC;
+    box-shadow: 2px 2px 2px 0px rgba(104, 103, 103, 0.25);
+}
+.Sheoran_Content_Button:hover{
+    background: #3E5CF8;
+}
+.Sheoran_Content_left_heading4 a{
+    color: #2A41C9;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    float: left;
+}
+.Sheoran_Content_right{
+     width: 45%;
+}
+

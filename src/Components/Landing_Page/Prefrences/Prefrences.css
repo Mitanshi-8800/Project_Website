@@ -1,0 +1,159 @@
+.Sheoran_Prefrences{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 670px;
+    
+    background:linear-gradient(174deg, #BBB0F1 4.63%, rgba(220, 218, 233, 0.00) 156.99%);
+    box-shadow: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    margin-top: 10px;
+   
+}
+.Sheoran_Prefrences_left{
+    width: 49% ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Sheoran_Prefrences_left_heading1 h3{
+    color: #533EBC;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Sheoran_Prefrences_left_heading2 h4{
+    color: #533EBC;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Sheoran_Prefrences_left_heading2 h4::before{
+ content: "Sheoran International Packers and Movers  ";
+ color: #AF2B4A;
+ font-family: Poppins;
+ font-size: 1.4rem;
+ font-style: normal;
+ font-weight: bold;
+ line-height: normal;
+ text-shadow:0.5px 0.5px 0.5px black ;
+}
+.Sheoran_Prefrences_left_heading3 ol li {
+color: #45349C;
+font-family: Poppins;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;   
+    
+}
+.Sheoran_Prefrences_left_heading3 li::before {
+ content: "Reputation and Reliability" ;
+ color: #2A41C9;
+ font-family: Poppins;
+ font-size: 1.4rem;
+ font-style: normal;
+ margin-left: 5px;
+ font-weight: 600;
+ line-height: normal;
+ text-decoration-line: underline;
+ 
+}
+.Sheoran_Prefrences_Right{
+   width: 40%;
+   margin: 24px;
+   border-radius: 20px;
+   border: 5px solid #45349C;
+   background: linear-gradient(180deg, #BBB0F1 0%, rgba(187, 176, 241, 0.00) 100%);
+}
+.Primary_button{
+        padding: 18px 10px ;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 80%;
+        height: 60px;
+        display: flex;
+        margin-top: 10px;
+        margin-left:70px ;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color:  #533EBC;
+        border: none;
+        cursor: pointer;
+    }
+    .Sheoran_Prefrences_Right_textbox{
+    
+        width: 93%;
+        height: 50px;
+        border: none;
+        font-size: 1.4rem;
+        font-family: Poppins;
+        margin-top:10px ;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        border-radius: 10px;
+        line-height: normal;
+        border: 3px solid #45349C;
+    }
+    .Sheoran_Prefrences_Right_textbox::placeholder{
+        color: #45349C;
+    }
+    .Sheoran_Prefrences_Right_textbox:hover{
+        box-shadow: 1px 1px 1px #45349C;
+    } 
+    .Sheoran_Prefrences_Right_textbox_{
+        display: flex;
+
+    }
+    .Sheoran_Prefrences_Right_textbox_1{
+        width: 43%;
+        margin-left: 10px;
+        height: 50px;
+        border: none;
+        font-size: 1.4rem;
+        font-family: Poppins;
+        margin-top:10px ;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        border-radius: 10px;
+        line-height: normal;
+        border: 3px solid #45349C;
+    }
+    .Sheoran_Prefrences_Right_textbox_1:hover{
+        box-shadow: 1px 1px 1px #45349C;
+    } 
+   .Sheoran_Prefrences_Right_textbox_1::placeholder{
+        color: #45349C;
+    }
+    .Sheoran_Prefrences_Right_textbox_2{
+        width: 93%;
+        height: 90px;
+        border: none;
+        font-size: 1.4rem;
+        font-family: Poppins;
+        margin-top:10px ;
+        padding-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        border-radius: 10px;
+        line-height: normal;
+        border: 3px solid #45349C;
+    }
+    .Sheoran_Prefrences_Right_textbox_2::placeholder{
+        color: #45349C;
+    }
+    
+
